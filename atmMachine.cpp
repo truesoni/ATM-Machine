@@ -5,8 +5,7 @@
 using namespace std;
 
 // Declaring a Class called atm
-class Atm{
-    
+class Atm{    
     //Private Variables    
     private: 
         long int account_No;
@@ -96,7 +95,6 @@ int main(){
         cin>>enterPIN;
 
         if((enterAccountNo == user1.getAccountNo()) && enterPIN == user1.getPIN()){
-
             do{
                 int amount = 0;
                 string  oldMobileNo, newMobileNo;
